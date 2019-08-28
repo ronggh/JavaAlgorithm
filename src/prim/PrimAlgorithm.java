@@ -1,5 +1,6 @@
 package prim;
 
+
 public class PrimAlgorithm {
     public static void main(String[] args) {
         //测试看看图是否创建ok
