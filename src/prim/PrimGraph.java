@@ -2,12 +2,12 @@ package prim;
 
 import java.util.Arrays;
 
-public class MinTree {
+public class PrimGraph {
     char[] data;//存放结点数据
     int[][] weight; //存放边，就是我们的邻接矩阵
 
     //
-    public MinTree(char[] data, int[][] weight) {
+    public PrimGraph(char[] data, int[][] weight) {
         this.data = data;
         this.weight = weight;
     }
@@ -32,7 +32,7 @@ public class MinTree {
         //h1 和 h2 记录两个顶点的下标
         int h1 = -1;
         int h2 = -1;
-        int minWeight = 10000; //将 minWeight 初始成一个大数，后面在遍历过程中，会被替换
+        int minWeight = Integer.MAX_VALUE; //将 minWeight 初始成一个大数，后面在遍历过程中，会被替换
 
         //因为有 data.length顶点，普利姆算法结束后，有 data.length-1边
         for(int k = 1; k < this.data.length; k++) {
@@ -53,7 +53,7 @@ public class MinTree {
             //将当前这个结点标记为已经访问
             visited[h2] = 1;
             //minWeight 重新设置为最大值 10000
-            minWeight = 10000;
+            minWeight = Integer.MAX_VALUE;
         }
 
     }
