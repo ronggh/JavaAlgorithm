@@ -1,5 +1,6 @@
 package floyd;
 
+// 弗洛伊德算法(最短路径问题) floyd
 public class FloydAlgorithm {
     public static void main(String[] args) {
 

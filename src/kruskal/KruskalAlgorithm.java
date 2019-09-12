@@ -1,7 +1,6 @@
 package kruskal;
 
-import java.util.Arrays;
-
+// 克鲁斯卡尔算法(最小生成树，选边)
 public class KruskalAlgorithm {
     //使用 INF 表示两个顶点不能连通
     private static final int INF = Integer.MAX_VALUE;

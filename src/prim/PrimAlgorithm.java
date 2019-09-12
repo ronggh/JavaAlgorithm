@@ -1,5 +1,6 @@
 package prim;
 
+// 普里姆算法(最小生成树，选点)
 public class PrimAlgorithm {
     //
     private static final int INF = Integer.MAX_VALUE;

@@ -2,6 +2,7 @@ package kmp;
 
 import java.util.Arrays;
 
+// KMP算法解决字符匹配问题
 public class KmpAlgorithm {
     public static void main(String[] args) {
         String str1 = "BBC ABCDAB ABCDABCDABDE";

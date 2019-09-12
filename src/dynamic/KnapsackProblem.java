@@ -1,5 +1,6 @@
 package dynamic;
 
+// 动态规划解决背包问题
 public class KnapsackProblem {
     public static void main(String[] args) {
         int[] w = {1, 4, 3};//物品的重量
@@ -39,7 +40,6 @@ public class KnapsackProblem {
                     } else {
                         v[i][j] = v[i - 1][j];
                     }
-
                 }
             }
         }

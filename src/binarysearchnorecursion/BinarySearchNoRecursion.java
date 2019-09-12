@@ -1,5 +1,6 @@
 package binarysearchnorecursion;
 
+// 二分查找（非递归）
 public class BinarySearchNoRecursion {
     public static void main(String[] args) {
         int[] arr = {1,3, 8, 10, 11, 67, 100};
@@ -17,7 +18,8 @@ public class BinarySearchNoRecursion {
 
         int left = 0;
         int right = arr.length - 1;
-        while(left <= right) { //说明继续查找
+        //说明继续查找
+        while(left <= right) {
             int mid = (left + right) / 2;
             if(arr[mid] == target) {
                 return mid;

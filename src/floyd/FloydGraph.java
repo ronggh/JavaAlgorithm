@@ -2,6 +2,7 @@ package floyd;
 
 import java.util.Arrays;
 
+// 弗洛伊德算法(最短路径问题) floyd
 public class FloydGraph {
     private char[] vertex; // 存放顶点的数组
     private int[][] dis; // 保存，从各个顶点出发到其它顶点的距离，最后的结果，也是保留在该数组

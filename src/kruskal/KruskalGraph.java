@@ -2,6 +2,7 @@ package kruskal;
 
 import java.util.Arrays;
 
+// 克鲁斯卡尔算法(最小生成树，选边)
 public class KruskalGraph {
     private int edgeNum; //边的个数
     private char[] vertexs; //顶点数组

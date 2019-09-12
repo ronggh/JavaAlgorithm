@@ -2,6 +2,7 @@ package dijkstra;
 
 import java.util.Arrays;
 
+// 迪杰斯特拉算法(最短路径问题) dijkstra
 public class DijkstraGraph {
     private char[] vertex; // 顶点数组
     private int[][] matrix; // 邻接矩阵

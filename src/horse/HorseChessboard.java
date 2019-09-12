@@ -4,6 +4,7 @@ import java.awt.Point;
 import java.util.ArrayList;
 import java.util.Comparator;
 
+// 马踏棋盘算法
 public class HorseChessboard {
     private static int X; // 棋盘的列数
     private static int Y; // 棋盘的行数

@@ -1,5 +1,6 @@
 package kmp;
 
+// 测试暴力匹配算法
 public class ViolenceMatch {
     public static void main(String[] args) {
         //测试暴力匹配算法

@@ -1,5 +1,6 @@
 package dijkstra;
 
+// 迪杰斯特拉算法(最短路径问题) dijkstra
 public class DijkstraAlgorithm {
     public static void main(String[] args) {
         char[] vertex = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};

@@ -2,6 +2,7 @@ package prim;
 
 import java.util.Arrays;
 
+// 普里姆算法(最小生成树，选点)
 public class PrimGraph {
     char[] data;//存放结点数据
     int[][] weight; //存放边，就是我们的邻接矩阵
